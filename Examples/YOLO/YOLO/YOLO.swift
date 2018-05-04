@@ -58,9 +58,10 @@ class YOLO: NeuralNetwork {
              --> Convolution(kernel: (3, 3), channels: 1024, activation: leaky, name: "conv7")
              --> Convolution(kernel: (3, 3), channels: 1024, activation: leaky, name: "conv8")
              --> Convolution(kernel: (1, 1), channels: 125, activation: nil, name: "conv9")
-
+    
+    
     model = Model(input: input, output: output)
-
+    
     let success = model.compile(device: device, inflightBuffers: inflightBuffers) {
       name, count, type in ParameterLoaderBundle(name: name,
                                                  count: count,
@@ -80,8 +81,9 @@ class YOLO: NeuralNetwork {
   public func fetchResult(inflightIndex: Int) -> NeuralNetworkResult<Prediction> {
     let featuresImage = model.outputImage(inflightIndex: inflightIndex)
     let features = featuresImage.toFloatArray()
+    
     assert(features.count == 13*13*128)
-
+    print(features)
     // We only run the convolutional part of YOLO on the GPU. The last part of
     // the process is done on the CPU. It should be possible to do this on the
     // GPU too, but it might not be worth the effort.

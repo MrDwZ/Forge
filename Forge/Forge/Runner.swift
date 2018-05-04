@@ -117,7 +117,7 @@ public class Runner {
       again! You should call it from a background thread -- it's OK to use the
       VideoCapture queue for this.
   */
-  public func predict<NeuralNetworkType: NeuralNetwork>(
+  public func  predict<NeuralNetworkType: NeuralNetwork>(
                       network: NeuralNetworkType,
                       texture inputTexture: MTLTexture,
                       queue: DispatchQueue,

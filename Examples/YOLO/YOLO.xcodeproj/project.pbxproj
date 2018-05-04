@@ -35,6 +35,7 @@
 		7B711CE91ECCA8A3001CB7C2 /* conv9_b.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7B711CD71ECCA8A3001CB7C2 /* conv9_b.bin */; };
 		7B711CEA1ECCA8A3001CB7C2 /* conv9_W.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7B711CD81ECCA8A3001CB7C2 /* conv9_W.bin */; };
 		7B711CF31ECDA2D4001CB7C2 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B711CF21ECDA2D4001CB7C2 /* BoundingBox.swift */; };
+		B90CB985209BE712001BD722 /* NuclearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90CB984209BE711001BD722 /* NuclearViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +82,7 @@
 		7B711CD71ECCA8A3001CB7C2 /* conv9_b.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = conv9_b.bin; path = Parameters/conv9_b.bin; sourceTree = SOURCE_ROOT; };
 		7B711CD81ECCA8A3001CB7C2 /* conv9_W.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = conv9_W.bin; path = Parameters/conv9_W.bin; sourceTree = SOURCE_ROOT; };
 		7B711CF21ECDA2D4001CB7C2 /* BoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		B90CB984209BE711001BD722 /* NuclearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuclearViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				7B711C9B1ECC8BBD001CB7C2 /* CameraViewController.swift */,
 				7B711CF21ECDA2D4001CB7C2 /* BoundingBox.swift */,
 				7B711C9C1ECC8BBD001CB7C2 /* YOLO.swift */,
+				B90CB984209BE711001BD722 /* NuclearViewController.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -204,7 +207,7 @@
 				TargetAttributes = {
 					7B711C7D1ECC8B13001CB7C2 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = MGCEKGP4Y4;
+						DevelopmentTeam = P3R3FAJ44Q;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -269,6 +272,7 @@
 				7B711C961ECC8B33001CB7C2 /* AppDelegate.swift in Sources */,
 				7B0B937E1F1E5FF30002A11A /* FPSCounter.swift in Sources */,
 				7B711C9E1ECC8BBD001CB7C2 /* YOLO.swift in Sources */,
+				B90CB985209BE712001BD722 /* NuclearViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,11 +401,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MGCEKGP4Y4;
+				DEVELOPMENT_TEAM = P3R3FAJ44Q;
 				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = YOLO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.machinethink.YOLO;
+				PRODUCT_BUNDLE_IDENTIFIER = net.machinethink.YOLO.1234;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -414,10 +418,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MGCEKGP4Y4;
+				DEVELOPMENT_TEAM = P3R3FAJ44Q;
 				INFOPLIST_FILE = YOLO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.machinethink.YOLO;
+				PRODUCT_BUNDLE_IDENTIFIER = net.machinethink.YOLO.1234;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;

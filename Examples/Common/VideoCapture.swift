@@ -43,7 +43,7 @@ public class VideoCapture: NSObject {
   var textureCache: CVMetalTextureCache?
   let captureSession = AVCaptureSession()
   let videoOutput = AVCaptureVideoDataOutput()
-	let photoOutput = AVCapturePhotoOutput()
+  let photoOutput = AVCapturePhotoOutput()
   let queue = DispatchQueue(label: "net.machinethink.camera-queue")
 
   var lastTimestamp = CMTime()
