@@ -27,7 +27,8 @@ class NuclearViewController: UIViewController {
         let network = YOLO(device: device!, inflightBuffers: MaxBuffersInFlight)
         
         runner.predict(network: network, texture: texture, queue: .main) { result in
-                print(result)
+            print(result.predictions.count)
+            print(result)
         }
         
         print(texture.height)
